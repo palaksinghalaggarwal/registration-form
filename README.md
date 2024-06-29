@@ -31,11 +31,11 @@ Here is a screenshot of the registration form:
 
 3. Open 'index.html' in your web browser to view the form.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Author
+### Author
 Created by Palak Gupta.
 
-Contributions
+### Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
