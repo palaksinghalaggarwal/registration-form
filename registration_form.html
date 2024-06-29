@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment - Registration Form</title>
+    <link rel="stylesheet" href="registration_form.css" type="text/css" />
+</head>
+
+<body style="background-color: lightblue">
+    <h2>Registration Form</h2>
+    <p>Enter your details below</p>
+
+    <form target="_blank" method="post">
+        <div>
+            <ul class="u11">
+                <li class="li1">
+                    <input type="email" name="email" required placeholder="Email" value="your_email@gmail.com"
+                        autofocus />
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="li2"> 
+                    <input type="password" name="Password" required placeholder="Password" minlength="8"
+                        maxlength="20" />
+                </li>
+            </ul>
+        </div>
+        <h5>
+            <i>
+                <p>!Type a complex password with 8-20 characters</p>
+            </i>
+        </h5>
+        <div>
+            <ul>
+                <li class="li3">
+                    <input type="number" name="Phone Number" required placeholder="+20 Phone Number" />
+                </li>
+            </ul>
+        </div>
+        <hr />
+        <h4>
+            <i>
+                <p>Enter your profession:</p>
+            </i>
+        </h4>
+        <ul>
+            <li class="li4">
+                <input type="radio" id="student" name="profession" value="Student" />
+                <label for="student">Student</label>
+                <input type="radio" id="teacher" name="profession" value="Teacher" />
+                <label for="teacher">Teacher</label>
+                <input type="radio" id="developer" name="profession" value="Developer" />
+                <label for="developer">Developer</label>
+            </li>
+        </ul>
+        <label for="stage">Choose the stage if you are (student)</label>
+        <select name="stage" id="stage">
+            <optgroup label="Primary Stage">
+            <option value="first primary">first primary</option>
+            <option value="second primary">second primary</option>
+            </optgroup>
+        </select>
+        <hr>
+        <ul>
+            <li class="li5">
+                <label for="birth-date">Enter your Birth date:</label>
+                <input type="date" name="date" id="birth-date"></li>
+        </ul>
+        <hr>
+        <div>
+            <ul>
+                <li class="li6">
+                    <input type="text" name="note" placeholder="Any notes">
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
